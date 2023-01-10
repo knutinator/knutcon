@@ -1,7 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto Condensed:wght@600;700&family=Source+Sans+Pro&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     border: 0;
 }
+
+body {
+    font-family: Source Sans Pro, sans-serif;
+ 
+}
+
+header {  
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+
+#logo {
+    font-family: Roboto Condensed, sans-serif;
+    text-decoration: none;
+    color: #000;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    line-height: 1.6em;
+    float: left;
+
+    padding-bottom: 20px;
+  }
+
+menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    padding-right: 1rem;
+    letter-spacing: .1rem;
+    float: right;
+   
+}
+    
+   
+
+/** hero **/
+
+#hero {clear: both;
+background-color: lightgrey;
+height: 500px;}
