@@ -13,8 +13,6 @@ body {
 header {  
     padding-top: 1rem;
     padding-left: 1rem;
-    
-   
 }
 
 #logo {
@@ -89,7 +87,6 @@ menu a:hover {
 
 #quotes-box {
     margin: 1rem;
-    width: 100%;
 }
 
 .headline {
@@ -103,3 +100,46 @@ menu a:hover {
    margin: 0 1rem 1rem 0;
  }
 
+ #services {
+    margin: 1rem;
+ }
+
+ #pitch {
+    margin: 1rem;
+ }
+
+ .pitch-text {
+    width: 20rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1rem 1rem 0;
+  }
+ 
+  .service-img  {
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 .5rem .5rem 0;
+    background-color: lightgray;
+  }
+
+  #quality {
+    margin: 1rem;
+   
+  }
+
+  .quality-mark {
+    width: 4rem;
+    height: 4rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1rem 1rem 0;
+    background-color: lightgray;
+  }
+
+  footer {
+    height: 10rem;
+    padding: 1rem;
+    background-color: lightgray;
+  }
