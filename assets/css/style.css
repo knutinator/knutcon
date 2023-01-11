@@ -10,38 +10,52 @@ body {
     font-family: Source Sans Pro, sans-serif;
 }
 
+@media screen and (min-width: 960px) {
+    .wrapper-wide {   
+    width: 960px;
+    margin: auto;
+    }
+}
+
 header {  
     padding-top: 1rem;
     padding-left: 1rem;
 }
 
 #logo {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Roboto Condensed, sans-serif;
     text-decoration: none;
     color: #000;
     letter-spacing: .1rem;
     text-transform: uppercase;
-    line-height: 1.6em;
+    line-height: 1.4em;
     float: left;
     padding-bottom: 1rem;
 }
 
-menu a {
+nav
+ a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-    padding: 1rem;
+    padding: .5rem;
     letter-spacing: .1rem;
 }
 
-menu a:hover {
+nav a:hover {
     border-bottom: 1px solid #000;
 }
     
-#menu {
+#nav
+ {
     float: right;
     margin-bottom: 1rem;
+    margin-right: .5rem;
+}
+
+.headline {
+    margin: 2rem 0 1rem 0rem;
 }
 
 /** hero **/
@@ -61,9 +75,7 @@ menu a:hover {
 }
 
 #hero-text-container {
-    position: absolute;
-    right: 10px;
-    width: 400px;
+   
 }
 
 #hero-headline {
@@ -73,68 +85,69 @@ menu a:hover {
     top: 20rem;
     text-align: right;
     line-height: 100%;
+    width: 320px;
+    float: right;
+    margin-right: 1rem;
 }
 
 #hero-text {
-    width: 230px;
+    clear:right;
+    width: 220px;
     height: 120px;
     padding: 20px;
-    margin-top: 200px;
-    margin-left: 120px;
     background: rgba(255, 255, 255, 0.9);
     font-size: large;
+    float: right;
+    position: relative;
+    top: 190px;
+    margin-right: 1rem;
 }
-
-#quotes-box {
-    margin: 1rem;
-}
-
-.headline {
-    margin: 2rem 0 1rem 0;
-}
-
-.quotes-text {
-   width: 20rem;
-   display: inline-block;
-   vertical-align: top;
-   margin: 0 1rem 1rem 0;
- }
-
- #services {
-    margin: 1rem;
- }
 
  #pitch {
-    margin: 1rem;
- }
-
+    padding-left: 1rem;
+}
+ 
  .pitch-text {
-    width: 20rem;
+    max-width: 18rem;
     display: inline-block;
     vertical-align: top;
-    margin: 0 1rem 1rem 0;
+    padding: 0 1rem 1rem 0;
   }
+
+  #services {
+    padding-left: 1rem;
+}
  
   .service-img  {
-    width: 10rem;
-    height: 10rem;
+    width: 24%;
+    max-width: 300px;
+    min-width: 140px;
     display: inline-block;
     vertical-align: top;
-    margin: 0 .5rem .5rem 0;
     background-color: lightgray;
   }
 
+  #quotes-box {
+    padding-left: 1rem;
+
+}
+
+.quotes-text {
+   max-width: 18rem;
+   display: inline-block;
+   vertical-align: top;
+   padding: 0 1rem 1rem 0;
+ }
+
   #quality {
-    margin: 1rem;
-   
-  }
+    padding-left: 1rem;
+}
 
   .quality-mark {
     width: 4rem;
     height: 4rem;
     display: inline-block;
     vertical-align: top;
-    margin: 0 1rem 1rem 0;
     background-color: lightgray;
   }
 
