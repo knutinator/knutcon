@@ -134,9 +134,8 @@ nav a:hover {
     display: inline-block;
     border-radius: 5px;
     font-size: 16px; 
-    margin-right: 1.5rem;
-    margin-bottom: 2rem;
-}
+    margin: 1.5rem 1.5rem 2rem 0;
+    }
 a.button:hover {
     background-color: rgb(138, 101, 9);
 }
@@ -147,13 +146,11 @@ a.button:hover {
 }
  
   .service-img {
-    width: 23%;
-    aspect-ratio: 1 / 1;
     max-width: 45%;
+    aspect-ratio: 1 / 1;
     min-width: 140px;
     display: inline-block;
     vertical-align: top;
-   
     margin: 1rem .5rem .5rem 0;
   }
 
