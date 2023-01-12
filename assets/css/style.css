@@ -52,7 +52,7 @@ nav a {
     text-transform: uppercase;
     color: #000;
     margin: .5rem;
-    padding-bottom: .5rem;
+    padding-bottom: .2rem;
     letter-spacing: .1rem;
 }
 
@@ -61,7 +61,8 @@ nav a:hover {
 }
     
 .active {
-    color: darkgoldenrod;;
+    color: darkgoldenrod;
+    border-bottom: 5px solid darkgoldenrod;
 }
 
 .headline {
@@ -71,7 +72,7 @@ nav a:hover {
     text-transform: uppercase;
 }
 
-/** hero **/
+/** hero image on index.html **/
 
 #hero-outer {
     height: 30rem;
@@ -85,6 +86,7 @@ nav a:hover {
     width: 100%;
     background: url('../images/hero-knutcon.jpg') no-repeat center center;
     background-size: cover;
+    
 }
 
 #hero-headline {
@@ -111,6 +113,39 @@ nav a:hover {
     top: 190px;
     margin-right: 1rem;
 }
+
+
+/* Banner image on about.html and contact.html */
+
+#banner-contact-outer {
+    height: 19rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+#banner-contact-image {
+    height: 19rem;
+    width: 100%;
+    background: url('/assets/images/banner-contact.jpg') no-repeat center center;
+    background-size: cover;
+    opacity: 80%;
+}
+
+#banner-about-outer {
+    height: 19rem;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    opacity: 80%;
+}
+#banner-about-image {
+    height: 19rem;
+    width: 100%;
+    background: url('/assets/images/banner-about.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+
 
  #pitch {
     padding-left: 1rem;
@@ -233,9 +268,11 @@ color: grey;
   }
 
 #about {
-    height: 1000px;
+    height: 500px;
+    padding-left: 1rem;
 }
 
 #contact {
-    height: 1000px;
+    height: 500px;
+    padding-left: 1rem;
 }
