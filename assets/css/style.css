@@ -17,6 +17,13 @@ body {
     }
 }
 
+@media screen and (max-width: 620px) {
+    .wrapper-wide p {   
+    width: 90%;
+    }
+}
+
+
 header {  
     padding-top: 1rem;
     padding-left: 1rem;
@@ -34,8 +41,7 @@ header {
     padding-bottom: 1rem;
 }
 
-nav
- a {
+nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
@@ -47,8 +53,7 @@ nav a:hover {
     border-bottom: 1px solid #000;
 }
     
-#nav
- {
+#nav {
     float: right;
     margin-bottom: 1rem;
     margin-right: .5rem;
@@ -108,23 +113,25 @@ nav a:hover {
 }
  
  .pitch-text {
-    max-width: 18rem;
+    width: 29%;
     display: inline-block;
     vertical-align: top;
-    padding: 0 1rem 1rem 0;
+    padding: 0 1.5rem 1.5rem 0;
   }
 
   #services {
     padding-left: 1rem;
 }
  
-  .service-img  {
-    width: 24%;
-    max-width: 300px;
+  .service-img {
+    width: 23%;
+    aspect-ratio: 1 / 1;
+    max-width: 45%;
     min-width: 140px;
     display: inline-block;
     vertical-align: top;
     background-color: lightgray;
+    margin: 0 .5rem .5rem 0;
   }
 
   #quotes-box {
