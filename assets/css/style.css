@@ -140,10 +140,18 @@ nav a:hover {
 }
 
 .quotes-text {
-   max-width: 18rem;
-   display: inline-block;
-   vertical-align: top;
-   padding: 0 1rem 1rem 0;
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1.5rem 1.5rem 0;
+ }
+
+ .quote-name {
+display: block;
+text-align: right;
+padding-top: .5rem;
+color: grey;
+
  }
 
   #quality {
