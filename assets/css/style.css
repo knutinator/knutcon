@@ -176,11 +176,11 @@ a.button:hover {
 }
 
 
-  #services {
+#services {
     padding-left: 1rem;
 }
  
-  .service-img {
+.service-img {
     max-width: 45%;
     aspect-ratio: 1 / 1;
     min-width: 140px;
@@ -189,12 +189,12 @@ a.button:hover {
     margin: 1rem .5rem .5rem 0;
   }
 
-  .service-pic {
+.service-pic {
     width: 100%;
     height: 100%;
   }
 
-  #quotes-box {
+#quotes-box {
     padding-left: 1rem;
 
 }
@@ -206,19 +206,19 @@ a.button:hover {
     padding: 0 1.5rem 1.5rem 0;
  }
 
- .quote-name {
-display: block;
-text-align: right;
-padding-top: .5rem;
-color: grey;
+.quote-name {
+    display: block;
+    text-align: right;
+    padding-top: .5rem;
+    color: grey;
 
  }
 
-  #quality {
+#quality {
     padding-left: 1rem;
 }
 
-  .quality-mark {
+.quality-mark {
     width: 3rem;
     height: 3rem;
     display: inline-block;
@@ -267,12 +267,38 @@ color: grey;
     color:  darkgoldenrod;
   }
 
-#about {
-    height: 500px;
+#about-top {
+       padding-left: 1rem;
+}
+
+#about-bottom {
+   
     padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.about-text {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1.5rem 1.5rem 0;
+}
+
+.about-text-bottom {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1.5rem 1.5rem 0;
 }
 
 #contact {
     height: 500px;
-    padding-left: 1rem;
+   
+}
+
+.map {
+    width: 100%;
+    height: 20rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
 }
