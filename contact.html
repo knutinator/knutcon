@@ -20,13 +20,31 @@
      <!-- Banner img  -->
 
      <section id="banner-contact-outer">
-        <div id="banner-contact-image">              
+        <div id="banner-contact-image">  
+                      
         </div>
     </section>    
 
-    <section id="contact">
+    <section id="contact" class="wrapper-wide">
         <h2 class="headline">Contact us</h2>
-
+        <p class="contact-text">Fill out the form below and we will get back to you with an offer quote as soon as possible. Please write thoroughly for a fast reply. If we need additional info, we will contact you. </p>
+        <div class="container">
+            <form action="/contact.html" method="get">
+          
+              <input type="text" id="fname" name="firstname" placeholder="First Name"required>
+              <input type="text" id="lname" name="lastname" placeholder="Last Name" required>
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              <input type="text" id="phone" name="phone" placeholder="Phone number" required>
+              
+              </select>
+          
+              <label for="subject">Request</label>
+              <textarea id="subject" name="subject" placeholder="What do you need?" style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
     </section>
 
 

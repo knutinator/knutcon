@@ -128,7 +128,7 @@ nav a:hover {
     width: 100%;
     background: url('/assets/images/banner-contact.jpg') no-repeat center center;
     background-size: cover;
-    opacity: 80%;
+  
 }
 
 #banner-about-outer {
@@ -136,7 +136,7 @@ nav a:hover {
     width: 100%;
     overflow: hidden;
     position: relative;
-    opacity: 80%;
+   
 }
 #banner-about-image {
     height: 19rem;
@@ -160,17 +160,18 @@ nav a:hover {
 
   a.button {
     background-color: darkgoldenrod;
-    border: none;
     color: white;
-    font-weight: bold;
-    padding: 15px 32px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    border-radius: 5px;
     font-size: 16px; 
     margin: 1.5rem 1.5rem 2rem 0;
     }
+
 a.button:hover {
     background-color: rgb(138, 101, 9);
 }
@@ -268,11 +269,10 @@ a.button:hover {
   }
 
 #about-top {
-       padding-left: 1rem;
+    padding-left: 1rem;
 }
 
 #about-bottom {
-   
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -292,7 +292,7 @@ a.button:hover {
 }
 
 #contact {
-    height: 500px;
+    padding-left: 1rem;
    
 }
 
@@ -302,3 +302,43 @@ a.button:hover {
     margin-right: 1rem;
     margin-bottom: 1rem;
 }
+
+/* Contact form */
+
+input[type=text], [type=email], select, textarea {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical; 
+  }
+  
+  input[type=submit] {
+    background-color: darkgoldenrod;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+ 
+  input[type=submit]:hover {
+    background-color: rgb(138, 101, 9);
+  }
+    
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-right: 1rem;
+    margin-bottom: 2rem;   
+}
+ .contact-text {
+    width: 46%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 1.5rem 1.5rem 0;
+ }
