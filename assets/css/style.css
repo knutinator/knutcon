@@ -190,12 +190,13 @@ color: grey;
     vertical-align: top;
     margin-bottom: 1rem;
     padding-right: 1rem;
+    opacity: 80%;
   }
 
 
   footer {
    
-    height: 11rem;
+    height: 12rem;
     padding: 1rem 0 1rem 1rem;
     background-color: lightgray;
     line-height: 1.5rem;
@@ -210,15 +211,31 @@ color: grey;
     color: darkgoldenrod;
   }
 
+  .footer-logo {
+    font-family: Roboto Condensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 120%;
+    padding-top: .5rem;
+    color:  darkgoldenrod;
+  }
+
   .social {
     margin-top: 1rem;
   }
 
   .social a {
     font-size: 200%;
-    color: darkgray;
+    color: rgb(107, 107, 107);
     letter-spacing: 1rem;
   }
   .social a:hover {
     color:  darkgoldenrod;
   }
+
+#about {
+    height: 1000px;
+}
+
+#contact {
+    height: 1000px;
+}
