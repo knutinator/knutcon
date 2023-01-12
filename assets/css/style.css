@@ -45,12 +45,13 @@ nav a {
     text-decoration: none;
     text-transform: uppercase;
     color: #000;
-    padding: .5rem;
+    margin: .5rem;
+    padding-bottom: .5rem;
     letter-spacing: .1rem;
 }
 
 nav a:hover {
-    border-bottom: 1px solid #000;
+    border-bottom: 5px solid #000;
 }
     
 #nav {
@@ -60,7 +61,10 @@ nav a:hover {
 }
 
 .headline {
+    clear: both;
     margin: 2rem 0 1rem 0rem;
+    font-family: Roboto Condensed, sans-serif;
+    text-transform: uppercase;
 }
 
 /** hero **/
@@ -117,6 +121,23 @@ nav a:hover {
     display: inline-block;
     vertical-align: top;
     padding: 0 1.5rem 1.5rem 0;
+  }
+
+  a.button {
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+   
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+  
   }
 
   #services {
