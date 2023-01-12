@@ -121,7 +121,7 @@ nav a:hover {
     display: inline-block;
     vertical-align: top;
     padding: 0 1.5rem 1.5rem 0;
-  }
+}
 
   a.button {
     background-color: darkgoldenrod;
@@ -133,12 +133,14 @@ nav a:hover {
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
-    font-size: 16px;
-   
+    font-size: 16px; 
     margin-right: 1.5rem;
     margin-bottom: 2rem;
-  
-  }
+}
+a.button:hover {
+    background-color: rgb(138, 101, 9);
+}
+
 
   #services {
     padding-left: 1rem;
@@ -151,8 +153,13 @@ nav a:hover {
     min-width: 140px;
     display: inline-block;
     vertical-align: top;
-    background-color: lightgray;
-    margin: 0 .5rem .5rem 0;
+   
+    margin: 1rem .5rem .5rem 0;
+  }
+
+  .service-pic {
+    width: 100%;
+    height: 100%;
   }
 
   #quotes-box {
