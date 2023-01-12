@@ -184,13 +184,14 @@ color: grey;
 }
 
   .quality-mark {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     display: inline-block;
     vertical-align: top;
-    background-color: lightgray;
     margin-bottom: 1rem;
+    padding-right: 1rem;
   }
+
 
   footer {
    
