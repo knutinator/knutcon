@@ -66,8 +66,8 @@ nav a:hover {
 }
     
 .active {
-    color: darkgoldenrod;
-    border-bottom: 5px solid darkgoldenrod;
+    color: #804800;
+    border-bottom: 5px solid #804800;
 }
 
 .headline {
@@ -164,7 +164,7 @@ nav a:hover {
 }
 
   a.button {
-    background-color: darkgoldenrod;
+    background-color: #804800;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -249,7 +249,7 @@ a.button:hover {
   }
 
   footer a:hover {
-    color: darkgoldenrod;
+    color: #804800;
   }
 
   .footer-logo {
@@ -257,7 +257,7 @@ a.button:hover {
     text-transform: uppercase;
     font-size: 120%;
     padding-top: .5rem;
-    color:  darkgoldenrod;
+    color:  #804800;
   }
 
   .social {
@@ -270,7 +270,7 @@ a.button:hover {
     letter-spacing: 1rem;
   }
   .social a:hover {
-    color:  darkgoldenrod;
+    color:  #804800;
   }
 
 #about-top {
@@ -310,7 +310,7 @@ a.button:hover {
 
 /* Contact form */
 
-input[type=text], [type=email], select, textarea {
+input[type=text], [type=email], [type=tel], select, textarea {
     width: 100%;
     padding: 12px; 
     border: 1px solid #ccc;
@@ -322,7 +322,7 @@ input[type=text], [type=email], select, textarea {
   }
   
   input[type=submit] {
-    background-color: darkgoldenrod;
+    background-color: #804800;
     color: white;
     padding: 12px 20px;
     border: none;
