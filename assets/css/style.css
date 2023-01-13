@@ -356,4 +356,6 @@ input[type=submit]:hover {
 /* error 404 page */
 #error {
 height: 500px;
+text-align: center;
+margin-top: 10rem;
 }
