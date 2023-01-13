@@ -84,7 +84,7 @@ nav a:hover {
 #hero-image {
     height: 30rem;
     width: 100%;
-    background: url('/assets/images/hero-knutcon.jpg') no-repeat center center;
+    background: url('../images/hero-knutcon.jpg') no-repeat center center;
     background-size: cover;
     
 }
@@ -126,7 +126,7 @@ nav a:hover {
 #banner-contact-image {
     height: 19rem;
     width: 100%;
-    background: url('/assets/images/banner-contact.jpg') no-repeat center center;
+    background: url('../images/banner-contact.jpg') no-repeat center center;
     background-size: cover;
   
 }
@@ -141,7 +141,7 @@ nav a:hover {
 #banner-about-image {
     height: 19rem;
     width: 100%;
-    background: url('/assets/images/banner-about.jpg') no-repeat center center;
+    background: url('../images/banner-about.jpg') no-repeat center center;
     background-size: cover;
 }
 
