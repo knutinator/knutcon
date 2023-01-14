@@ -1,8 +1,8 @@
 # Knut's Construction
 
-Knut's Construction is a website for the company of the same name in Göteborg, Sweden. The company provides all kinds of building services, ranging from houses to furniture. The purpose of the website is to attract the interest of potential customers in need of construction and renovation.
+<a href="https://knutinator.github.io/knutcon/">Knut's Construction</a> is a website for the company of the same name in Göteborg, Sweden. The company provides all kinds of building services, ranging from houses to furniture. The purpose of the website is to attract the interest of potential customers in need of construction and renovation.
 
-[main image]
+<img src="assets/images/readme/knutcon-mockup.png">
 
 ## Features
 
