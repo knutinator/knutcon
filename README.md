@@ -1,6 +1,6 @@
 # Knut's Construction
 
-<a href="https://knutinator.github.io/knutcon/">Knut's Construction</a> is a website for the company of the same name in Göteborg, Sweden. The company provides all kinds of building services, ranging from houses to furniture. The purpose of the website is to attract the interest of potential customers in need of construction and renovation.
+<a href="https://knutinator.github.io/knutcon/" target="_blank">Knut's Construction</a> is a website for the company of the same name in Göteborg, Sweden. The company provides all kinds of building services, ranging from houses to furniture. The purpose of the website is to attract the interest of potential customers in need of construction and renovation.
 
 ![Mockup](/assets/images/readme/knutcon-mockup.png)
 
@@ -101,10 +101,10 @@
 
 ### Validation
 
-- The HTML was validated using <a href="https://validator.w3.org/">W3C Markup HTML Validator</a>
-- The CSS was validated using <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>
-- Links has been checked using <a href="https://validator.w3.org/checklink">W3C Link Checker</a>
-- Accessibility was validated using <a href="https://pagespeed.web.dev/">Pagespeed Insights</a>
+- The HTML was validated using <a href="https://validator.w3.org/" target="_blank">W3C Markup HTML Validator</a>
+- The CSS was validated using <a href="https://jigsaw.w3.org/css-validator/" target="_blank">W3C CSS Validator</a>
+- Links has been checked using <a href="https://validator.w3.org/checklink" target="_blank">W3C Link Checker</a>
+- Accessibility was validated using <a href="https://pagespeed.web.dev/" target="_blank">Pagespeed Insights</a>
 
 ### Responsiveness testing
 - The responsive design element of the webpage were tested extensively using Chrome Dev Tools, in order to simulate how the layout appears on different screen sizes and resolution.
@@ -120,15 +120,15 @@
 - From the Branch drop-down menu, choose "Main" and press the Deploy button
 - When the deployment is finished, the page will display a link to the page in the topmost box
 
-Link to live website: https://knutinator.github.io/knutcon/index.html
+Link to live website: <a href="https://knutinator.github.io/knutcon/index.html" target="_blank">https://knutinator.github.io/knutcon/index.html</a>
 
 
 ## Credits
 
-- Favicon (and favicon code) was generated using <a href="https://favicon.io/favicon-generator/">favicon.io</a>
-- All photographs are gathered from <a href="https://www.pexels.com/">Pexels</a>
-- All fonts were implemented using <a href="https://fonts.google.com/">Google Fonts</a>
-- Social Media icons were made with <a href="https://fontawesome.com/">Font Awesome</a>
+- Favicon (and favicon code) was generated using <a href="https://favicon.io/favicon-generator/" target="_blank">favicon.io</a>
+- All photographs are gathered from <a href="https://www.pexels.com/" target="_blank">Pexels</a>
+- All fonts were implemented using <a href="https://fonts.google.com/" target="_blank">Google Fonts</a>
+- Social Media icons were made with <a href="https://fontawesome.com/" target="_blank">Font Awesome</a>
 
 
 
