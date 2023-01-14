@@ -42,23 +42,24 @@ Knut's Construction is a website for the company of the same name in Göteborg, 
     - The "About Us" text section gives the user more in-depth info about the company's history and services, instilling a sense of familiarity and trustworthiness.
    
 - Map
-    - The map shows the location of the company's workshop building, using an interactive Google Map. This makes it easier for the user to visit the company.
+    - The map shows the location of the company's workshop building, using an interactive Google Map. This makes it easier for the user to locate and visit the company.
     - Below the map is a text which invites the user to come to the workshop for a personal meeting.
 
 - Contact Page
-    - The page has a banner photo across the top, similar to the About Us page, but with a subject of a person using a laptop in the workshop. This conveys to the user that the company is easy to reach, and is eager to respond to their requests.
+    - The page has a banner photo across the top, similar to the About Us page, but with a subject of a person using a laptop in the workshop. This conveys to the user that the company is easy to reach, and eager to respond to their requests.
     - The Contact Us section starts with a short message telling the user to fill out the form below in order to request a work quote.
     - The contact form is an easy-to-use way for the user to contact the company directly, without having to leave the website. 
 
 
 ### Visual Design
 
-- Responsiveness
 - Fonts
+    - The fonts used, <em>Roboto Condensed</em> and <em>Source Sans Pro</em> for headlines and body text respectively, were chosen for their high legibility and 'robust' characteristic. 
+    - In the logo and slogan on the Home page, the font is also using a very short line-height. This gives the lettering an appearance of building-blocks, furthering the design themes of 'building' and 'creativity'.
 - Colors
+    - The color scheme is intentially minimal to keep an expression of simplicity. A single dark brown accent colour, which was picked to harmonize with the images, is used to emphasize certain important elements, such as buttons. 
 - Images
-
-Use high-contrast colors with strong, heavy typography to convey a sense of robustness and reliability. Use a mobile-first approach.
+    - The images are chosen to enhance the company's visual identity as both 'creative' and 'skillful', in order to gain the trust and of the user.
 
 ## Testing
 
@@ -67,20 +68,31 @@ Use high-contrast colors with strong, heavy typography to convey a sense of robu
 - The HTML was validated using <a href="https://validator.w3.org/">W3C Markup HTML Validator</a>
 - The CSS was validated using <a href="https://jigsaw.w3.org/css-validator/">W3C CSS Validator</a>
 - Links has been checked using <a href="https://validator.w3.org/checklink">W3C Link Checker</a>
-- Accessability was validated using <a href="https://pagespeed.web.dev/">Pagespeed Insights</a>
+- Accessibility was validated using <a href="https://pagespeed.web.dev/">Pagespeed Insights</a>
 
 ### Responsiveness testing
-- jdkhfkjsdhf
+- The responsive design element of the webpage were tested extensively using Chrome Dev Tools, in order to simulate how the layout appears on different screen sizes and resolution.
+- For physical mobile testing, an Android device running Google Chrome was used.
 
 
 ## Deployment
 
+- The site was deployed to GitHub pages. These are the steps to deploy:
+- In the GitHub repository, navigate to the Settings tab
+- Select the Pages section in the left-hand menu
+- From the Source drop-down menu, select "Deploy from a branch" 
+- From the Branch drop-down menu, choose "Main" and press the Deploy button
+- WHen the deployment is finished, the page will display a link to the page in the topmost box
+
+Link to deployed website: https://knutinator.github.io/knutcon/index.html
+
+
 ## Credits
 
- - Content
-    - Favicon (and favicon code) was generated using https://favicon.io/favicon-generator/
- - Media
-    - All photographs are gathered from https://www.pexels.com/
+- Favicon (and favicon code) was generated using <a href="https://favicon.io/favicon-generator/">favicon.io</a>
+- All photographs are gathered from <a href="https://www.pexels.com/">Pexels</a>
+- All fonts were implemented using <a href="https://fonts.google.com/">Google Fonts</a>
+- Social Media icons were made with <a href="https://fontawesome.com/">Font Awesome</a>
 
 
 
